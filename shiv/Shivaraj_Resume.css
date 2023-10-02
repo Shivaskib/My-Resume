@@ -1,0 +1,45 @@
+.{
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    
+}
+body
+{ 
+    background:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: auto;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0,1);
+}
+.container .left_side
+{
+    position: relative;
+    background: rgb(100, 123, 235);
+    padding: 40px;
+    color: white
+}
+.container .right_side
+{
+    position: relative;
+    background: rgb(194, 194, 240);
+    padding: 20px;
+    margin: o;
+}
+.Sign
+{
+    position: Right;
+}
